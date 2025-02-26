@@ -27,5 +27,6 @@ public class PrimitiveVsWrapperPerformance2 {
         // 결과 출력
         System.out.println("기본형(int) 연산 시간: " + primitiveTime + " ns");
         System.out.println("래퍼 클래스(MyDouble) 연산 시간: " + wrapperTime + " ns");
-        System.out.println("성능 차이 (배수): " + (double) wrapperTime / primitiveTime);    }
+        System.out.println("성능 차이 (배수): " + (double) wrapperTime / primitiveTime);
+    }
 }
