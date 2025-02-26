@@ -17,8 +17,8 @@ public class MyDouble {
         return value;
     }
 
-    public MyDouble addDouble(MyDouble value) {
-        return new MyDouble(this.value + value.getValue());
+    public MyDouble addDouble(MyDouble myDouble) {
+        return new MyDouble(this.value + myDouble.getValue());
     }
 
 }
